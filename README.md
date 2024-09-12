@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 Welcome to the Ward Melville Coding and Computer Science Club Website Repository
 
 <!--
 **wmcsclub/wmcsclub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
