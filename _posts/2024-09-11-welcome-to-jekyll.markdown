@@ -6,4 +6,4 @@ categories: update
 ---
 GG gamers
 
-<img src="assets\images\happie.jpg" alt="Happy" width="500">
+![Welcome Image](/assets/images/happie.jpg)
