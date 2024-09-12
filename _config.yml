@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Poggers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: N/A
+class_code:  w5ngoxr
 github_username:  wmcsclub
 
 # Build settings
