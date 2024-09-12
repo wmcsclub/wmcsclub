@@ -6,4 +6,4 @@ categories: update
 ---
 GG gamers
 
-<img src="C:\Users\dlian\Documents\WMCSC\wmcsclub.github.io\images\happie.jpg" alt="Happy" width="500">
+<img src="assets\images\happie.jpg" alt="Happy" width="500">
