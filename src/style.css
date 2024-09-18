@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  overscroll-behavior-y: none;
+  transition: 0.3s;
+  background-color: #000517;
+  color: white;
+
+}
+html {
+  height: 100%;
+  width: 100%;
+  line-height: 1.6; 
+  font-family: 'Lato', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0; 
+}
+
+.topnav{
+  padding: 14px 32px; 
+  display: flex; 
+  justify-content: right;
+  position: sticky;
+  z-index: 1;
+  top: 0; 
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.1);
+}
+.topnav-home{
+    border: 1px solid #56c8c8; 
+}
+.topnav-home:hover{
+    border: 1px solid #2e8e8e; 
+}
+.topnav a{
+  text-decoration: none;
+  color: #56c8c8; 
+  padding: 10px 28px; 
+  transition: 0.3s;
+  font-family: "Source Code Pro", monospace;
+}
+.topnav a:hover{
+  color: black;
+  transition: 0.3s;
+  
+}
+
+.header h1{
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  color: #A8DADC;
+  line-height: 5.8vh;
+  transition: ease 0.3s;
+  animation: title-move 3s infinite;
+}
+.header h1:hover{
+   /* font-family: "Source Code Pro", monospace;*/
+    color: #546D6E;
+}
+.header h2{
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color:#3a4c4d;
+  transition: ease 0.3s;
+  animation: title2-move 3s infinite;
+}
+
+@keyframes title-move{
+    0%{scale:1;}
+    50%{scale:1.1;}
+    100%{scale:1;}
+}
+@keyframes title2-move{
+    0%{scale:1;}
+    50%{scale:1.1;}
+    100%{scale:1;}
+}
+
+p{
+    color:#7d7d7d;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+a{
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: pointer;
+  color: #66666e;
+  transition: 0.3s;
+}
+
+button{
+    padding: 10px;
+    color: #56c8c8;
+    border: 1px solid #56c8c8;
+    background-color: black;
+    font-family:"Source Code Pro", monospace;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+  color: #276464;
+  border: 1px solid black;
+
+}
+
+
+.header{
+  padding: 100px 200px 25px 200px;
+}
+.section{
+  padding: 100px 200px 25px 200px;
+}
+
+@media (max-width: 720px) {
+  .topnav{
+    padding: 14px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .section{
+    padding: 25px 50px 25px 50px;
+  }
+  .column-right{
+    width: 100%;
+}
+  
+  
+}
